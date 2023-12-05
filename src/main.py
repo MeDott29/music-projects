@@ -25,3 +25,9 @@ else:
     print("No drop section found")
 # Save the modified audio data as a new audio file
 save_audio_file(enhanced_drop_audio_data, "enhanced_drop.wav")
+from audio_processing import save_audio_file
+
+...
+
+# Save the modified audio data as a new audio file
+save_audio_file(modified_drop_audio_data, "enhanced_drop.wav")
