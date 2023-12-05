@@ -15,3 +15,13 @@ if drop_start and drop_end:
     print(f"The drop section starts at {drop_start} and ends at {drop_end}")
 else:
     print("No drop section found")
+    save_audio_file(enhanced_drop_audio_data, "enhanced_drop.wav")
+else:
+    print("No drop section found")
+# Save the modified audio data as a new audio file
+save_audio_file(enhanced_drop_audio_data, "enhanced_drop.wav")
+    save_audio_file(enhanced_drop_audio_data, "enhanced_drop.wav")
+else:
+    print("No drop section found")
+# Save the modified audio data as a new audio file
+save_audio_file(enhanced_drop_audio_data, "enhanced_drop.wav")
