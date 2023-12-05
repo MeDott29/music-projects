@@ -17,3 +17,7 @@ class UserInterface:
     def save_ideas(self, ideas):
         # Save the user's ideas to a file for future reference
         pass
+    def load_ideas(self):
+        # Load the user's saved ideas from a file
+        with open("ideas.txt", "r") as file:
+            self.ideas = file.read()
